@@ -8,7 +8,7 @@ Build, flash, and fly your own IoT drone controller with live telemetry to **Gra
 
 **This repository contains the code for the drone (M5Stamp Fly).**
 To complete the workshop, you’ll also need to flash a separate firmware to the remote controller (M5Atom Joystick).
-👉 Get it here: [M5StampFlyController-GrafanaCon2025](https://github.com/grafana/M5StampFlyController-GrafanaCon2025)
+👉 Get it here: [M5StampFlyController-GrafanaCon](https://github.com/grafana/M5StampFlyController-GrafanaCon2025)
 
 See the full [presentation](https://docs.google.com/presentation/d/1gplOTQXUGFakvUzN_5wO11U3CwkT_uDoR_AfIqQhD4M/edit?usp=sharing) for more details.
 
@@ -35,8 +35,8 @@ See the full [presentation](https://docs.google.com/presentation/d/1gplOTQXUGFak
 ```bash
 mkdir grafana-iot-workshop
 cd grafana-iot-workshop 
-git clone https://github.com/grafana/M5StampFly-GrafanaCon2025.git
-git clone https://github.com/grafana/M5StampFlyController-GrafanaCon2025.git
+git clone https://github.com/grafana/M5StampFly-GrafanaCon.git
+git clone https://github.com/grafana/M5StampFlyController-GrafanaCon.git
 ```
 
 ## Enviroment prep
@@ -82,7 +82,7 @@ In your Grafana Cloud Portal, open up the details of your Grafana Instance
 
 ### M5Atom Joystick
 
-1. In VsCode, open the M5StampFlyController-GrafanaCon2025 repo
+1. In VsCode, open the M5StampFlyController-GrafanaCon repo
 1. Edit src/config.h:
 
     ```
